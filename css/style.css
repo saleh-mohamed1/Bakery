@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+.main{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+.nav-bar{
+    width: 90%;
+    margin: 0 60px;
+    padding: 15px 0;
+}
+.nav-bar-img{
+    width: 50%;
+    display: inline-block;
+    padding-left: 45px;
+}
+.nav-bar img {
+    width: 200px;
+}
+.nav-bar-right{
+    width: 43%;
+}
+.nav-bar-right  {
+    list-style: none;
+    display: inline-block;
+    text-align: end;
+}
+.nav-bar-right a {
+    text-decoration: none;
+    margin: 0 7px;
+    color: #ffffff;
+    font-size: 20px;
+    border-bottom: 2px solid #8e7754;
+}
+/* start under nav */
+.under-nav{
+    text-align: center;
+    margin: 130px 0 70px 0 ; 
+    color: white;
+}
+.under-nav h5{
+    font-size: 20px;
+    margin: 7px 0;
+    font-family: 'Alegreya', serif;
+}
+.under-nav h1{
+    font-size: 60px;
+    margin: 7px 0;
+    font-family: 'Alegreya', serif;
+}
+.under-nav p{
+    margin: 20px 0;
+    font-size: 25px;
+    font-family: 'Alegreya', serif;
+}
+.under-nav .learn{
+    color: white;
+    margin: 10px 10px;
+    padding: 20px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #8e7754;
+}
+.under-nav .Contact{
+    color: white;
+    margin: 10px 10px;
+    padding: 20px 20px;
+    border-radius: 5px;
+    border: solid 2px white;
+    /* add somting in back ground color transparent or rgba */
+    background-color: rgba(255, 255, 255, 0);
+}
+/* end under nav */
+/* start who we are second div */
+.seconde-part{
+    padding: 70px  50px ;
+}
+.seconde-part-img{
+    width: 45%; 
+    margin: 0 20px;
+    display: inline-block;
+}
+.seconde-part img {
+    width: 100%; 
+}
+.seconde-part-main{
+    width: 45%;
+    display: inline-block;
+    margin-left: 50px;
+    vertical-align: 50px;
+}
+.seconde-part-main h2{
+    font-size: 250%;
+    margin-bottom: 20px;
+    font-family: 'Alegreya', serif;
+}
+.seconde-part-main p {
+    margin-bottom: 15px;
+    font-family: 'Alegreya', serif;
+}
+/* end who we are second div */
+/*  start seconde-part-main-images and pragraphes */
+/* .seconde-part-main-img-p {
+    margin-top: 20px;
+} */
+.seconde-part-icons{
+    display: inline-block;
+}
+.seconde-part-main-img-p img{
+    width: 7%;
+    display: inline;
+    border: 1px solid wheat;
+    border-radius: 50%; 
+    vertical-align :middle ;
+}
+.seconde-part-main-img-p p{
+    height: 20px;
+    display: inline-block;
+    font-family: 'Alegreya', serif;
+}
+/* end seconde-part-main-images and pragraphes */
+/* start third part image left and pragraph right */
+.third-part{
+    background-color: rgba(238, 236, 236, 0.81);
+    padding: 50px 0;
+    width: 100%;
+}
+.third-part-left{
+    text-align: center;
+    width: 43%;
+    display: inline-block;
+    margin-right: 35px;
+    vertical-align: top;
+    margin-top: 45px;
+}
+.third-part-left p {
+    font-weight: 800;
+    color: rgba(35, 35, 35, 0.668);
+}
+.third-part-left h3 {
+    font-size: 32px;
+    margin-bottom: 45px;
+}
+.third-part-right{
+    width: 45%;
+    display: inline-block;
+}
+.third-part-right img{
+    width: 100%;
+}
+/* end third part image left and pragraph right */
+/* start forth part related to float only and i have p and h2 and 3 images */
+.forth-part{
+    width: 100%;
+    padding-top: 25px;
+}
+.forth-part-text {
+    text-align: center;
+    margin-bottom: 35px;
+}
+.forth-part-text h2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+.forth-part-text p {
+    color: #686868;
+    font-size: 19px;
+}
+.forth-part-text h2 , p {
+    margin: 27px 0;
+}
+.forth-part-img{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+}
+.forth-part-img h2 {
+    margin-top: 15px ;
+    
+}
+.forth-part-img img{
+    width: 90%;
+    display: inline;
+}
+.forth-part-img p{
+    padding: 0 40px;
+    margin-top: 15px ;
+
+    font-weight: 100;
+}
+.clr{
+    clear: both;
+}
+/* end forth part related to float only and i have p and h2 and 3 images */
+/* start fifth part related to float only texts and  map */
+.fifth-part{
+    margin-top: 45px;
+    padding: 75px 0;
+    background-color: ghostwhite;
+}
+.fifth-part-left{
+    width: 45%;
+    float: left;
+}
+.fifth-part-text-info h2{
+    font-weight: 100;
+    font-size: 35px;
+}
+.fifth-part-text-info p{
+    margin: 25px  0 ;
+}  
+.fifth-part-text-details ul li img{
+    width: 8%;
+    background-color: #8e7754;
+    border-radius: 50%;
+    display: inline-block;
+}
+.fifth-part-text-details ul li span{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.img-span-fifth-part{
+    margin: 25px 0;
+}
+.fifth-part-text-details h4{
+    margin: 20px  0;
+}
+.fifth-part-img{
+    float: right;
+    width: 45%;
+}
+.fifth-part-img img {
+    width: 100%;
+}
+/* end fifth part related to float only texts and  map */
+/*  start part six about 4 divs floats */
+.sixth-part{
+    font-family: "Alegreya Sans";
+    background-color: #403d38;
+}
+.sixth-parts{
+    margin-top: 30px;
+    padding: 0 35px;
+    float: left;
+    width: 19%;    
+}
+.sixth-parts-another-img{
+    background-image: url("images\contact-details-map.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sixth-parts h3{
+    color: rgba(255, 255, 255, 0.837);
+}
+.sixth-parts p{
+    color: #969696;
+}
+.sixth-parts li{
+    border-bottom: 1px solid grey ;
+    list-style: none;
+    margin: 15px 0;
+    color: #969696;
+}
+.sixth-parts li img{
+    width: 7%;
+    vertical-align: middle;
+    display: inline-block;
+}
+.sixth-parts .nonee {
+    border: none ;
+}
+.sixth-parts .another-img img {
+    width: 15%;
+}
+.sixth-parts .another-img a {
+    color: #969696;
+    list-style: none;
+    text-decoration: none;
+}
+/*  end part six about 4 divs floats*/
+/* start part seven about 3 divs floats */
+.last-one-page{
+    background-color: #353330;
+    color: #686868;
+    width: 100%;
+    padding-top: 30px ;
+}
+.last-one-center{
+    width: 30%;
+    text-align: center;
+    margin: auto;   
+} 
+.last-one-page .last-one-center img {
+    width: 50%;
+    margin: auto;
+}
+.last-one-page-img{
+    margin: auto;
+    text-align: center;
+}
+.last-one-contant {
+    width: 3%;
+    border: 1px solid rgba(128, 128, 128, 0.216);
+    border-radius: 50%;
+    margin: 0 10px;
+    background-color: rgba(128, 128, 128, 0.104) ;
+    display: inline-block;
+}
